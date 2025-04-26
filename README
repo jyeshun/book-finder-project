@@ -1,0 +1,42 @@
+# BookFinder
+A simple web application for finding books.
+
+## Running Locally
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm start` or `nodemon app` to start the server
+4. Open a web browser and navigate to `localhost:3000`
+
+## Environment Variables
+* `MONGO_URI` - The connection string for the MongoDB database
+* `SESSION_SECRET` - The secret used to sign the session cookie
+
+
+## Features
+
+### Feature #1: Dark and Light Mode Adjustments
+To improve accessibility, a button on the bottom left hand corner of the page has been implemented to allow users to switch between light and dark mode while using appropriate, contrasting Hex Codes for both the background and text elements.
+
+### Feature #2: Flip on hover
+To improve interactivity and usability from users, a feature has been implemented on the explore page to allow users to hover over books to view tags, titles, authors, and to be given various options for both saving and buying recommended books.
+
+### Feature #3: Searchable Tags
+To improve interactivity and usability, tags are becoming searchable by allowing users to click on the corresponding tag presented for a book title before being brought to a page that gives recommendations based on their chosen tags. → Shown through the 'lighthearted' book tag
+
+### Feature #4: User's Book List page with Scrollable Book List
+For better usability and less clutter, a carousel slider has been implemented under the users book list page. This allows the user to click on the books shown currently to view more books they are reading at the moment.
+
+### Feature #5: More information on Flipped Book Card
+To enhance the browsing experience, we added a flip-card feature to each book in the Book Finder project. When a user flips a book card, they can instantly view key details like genre tags (Fiction, Mystery, etc.) and a brief description—helping them get a quick sense of the book without needing to navigate away from the main page.
+
+## Technologies Used
+* Front-end: HTML, CSS, JavaScript
+* Back-end: Node.js, Express.js
+* Database: MongoDB
+
+## Authors
+* JJ Eshun
+* Krystal Rivera
+* Katie Cannon
+
+
